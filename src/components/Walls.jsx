@@ -5,10 +5,12 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
+const base = import.meta.env.BASE_URL;
+
 const WALLS = [
-  { name: 'Maria', desc: 'The outermost wall. The first line of defense, breached in year 845.', radius: '480 km', img: '/images/wall_maria.png' },
-  { name: 'Rose', desc: 'The middle wall. A crucial stronghold for humanity\'s survival.', radius: '380 km', img: '/images/wall_rose.png' },
-  { name: 'Sina', desc: 'The innermost wall. Protecting the king and the elite.', radius: '250 km', img: '/images/wall_sina.png' }
+  { name: 'Maria', desc: 'The outermost wall. The first line of defense, breached in year 845.', radius: '480 km', img: `${base}images/wall_maria.png` },
+  { name: 'Rose', desc: 'The middle wall. A crucial stronghold for humanity\'s survival.', radius: '380 km', img: `${base}images/wall_rose.png` },
+  { name: 'Sina', desc: 'The innermost wall. Protecting the king and the elite.', radius: '250 km', img: `${base}images/wall_sina.png` }
 ]
 
 export default function Walls() {
@@ -68,7 +70,7 @@ export default function Walls() {
   return (
     <section className="walls" id="walls" ref={sectionRef}>
       <div className="walls__bg" ref={bgRef}>
-        <img src="/images/wall.png" alt="The Walls" />
+        <img src={`${base}images/wall.png`} alt="The Walls" />
         <div className="walls__bg-overlay" />
       </div>
 

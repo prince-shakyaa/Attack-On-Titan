@@ -5,11 +5,13 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
+const base = import.meta.env.BASE_URL;
+
 const SOLDIERS = [
-  { id: 1, name: 'Eren Yeager', role: 'Attack Titan', desc: 'Driven by an insatiable desire for freedom.', img: '/images/eren.png' },
-  { id: 2, name: 'Mikasa Ackerman', role: 'Top Soldier', desc: 'A lethal force of nature, bound by loyalty.', img: '/images/mikasa.png' },
-  { id: 3, name: 'Levi Ackerman', role: 'Captain', desc: 'Humanity\'s strongest soldier, unmatched in combat.', img: '/images/levi.png' },
-  { id: 4, name: 'Armin Arlert', role: 'Strategist', desc: 'A brilliant mind that sees beyond the walls.', img: '/images/armin.png' }
+  { id: 1, name: 'Eren Yeager', role: 'Attack Titan', desc: 'Driven by an insatiable desire for freedom.', img: `${base}images/eren.png` },
+  { id: 2, name: 'Mikasa Ackerman', role: 'Top Soldier', desc: 'A lethal force of nature, bound by loyalty.', img: `${base}images/mikasa.png` },
+  { id: 3, name: 'Levi Ackerman', role: 'Captain', desc: 'Humanity\'s strongest soldier, unmatched in combat.', img: `${base}images/levi.png` },
+  { id: 4, name: 'Armin Arlert', role: 'Strategist', desc: 'A brilliant mind that sees beyond the walls.', img: `${base}images/armin.png` }
 ]
 
 export default function Soldiers() {
@@ -61,7 +63,7 @@ export default function Soldiers() {
   return (
     <section className="soldiers" id="soldiers" ref={sectionRef}>
       <div className="soldiers__bg">
-        <img src="/images/soldier.png" alt="Survey Corps" ref={imgRef} />
+        <img src={`${base}images/soldier.png`} alt="Survey Corps" ref={imgRef} />
         <div className="soldiers__overlay" />
       </div>
       
