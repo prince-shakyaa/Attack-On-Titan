@@ -1,0 +1,142 @@
+.chronicle {
+  background: var(--void);
+  padding: 15vh 5vw;
+  color: var(--white);
+  overflow: hidden;
+}
+
+.chronicle__header {
+  text-align: center;
+  margin-bottom: 8rem;
+}
+
+.chronicle__header h2 {
+  font-family: var(--f-display);
+  font-size: clamp(3rem, 6vw, 5rem);
+  text-transform: uppercase;
+  color: var(--bone);
+  letter-spacing: 0.1em;
+}
+
+.chronicle__header h2 span {
+  color: var(--red);
+}
+
+.chronicle__header p {
+  font-family: var(--f-body);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--dust);
+  margin-top: 1rem;
+}
+
+.chronicle__timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.chronicle__line-bg {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: rgba(196, 164, 80, 0.15);
+  transform: translateX(-50%);
+}
+
+.chronicle__line-fill {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--gold), var(--red));
+  transform: translateX(-50%);
+  box-shadow: 0 0 15px var(--red);
+}
+
+.chronicle__item {
+  position: relative;
+  width: 50%;
+  padding: 2rem 4rem;
+  margin-bottom: 4rem;
+}
+
+.chronicle__item.left {
+  left: 0;
+  text-align: right;
+}
+
+.chronicle__item.right {
+  left: 50%;
+  text-align: left;
+}
+
+.chronicle__dot {
+  position: absolute;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  background: var(--void);
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.chronicle__item:hover .chronicle__dot {
+  background: var(--gold);
+  box-shadow: 0 0 20px var(--gold);
+}
+
+.chronicle__item.left .chronicle__dot {
+  right: -8px;
+}
+
+.chronicle__item.right .chronicle__dot {
+  left: -8px;
+}
+
+.chronicle__content {
+  background: rgba(10, 10, 15, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 2rem;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.chronicle__item:hover .chronicle__content {
+  background: rgba(20, 20, 25, 0.8);
+  transform: translateY(-5px);
+}
+
+.chronicle__year {
+  font-family: var(--f-cinzel);
+  font-size: 0.9rem;
+  color: var(--red);
+  letter-spacing: 0.2em;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.chronicle__content h3 {
+  font-family: var(--f-cinzel);
+  font-size: 1.8rem;
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.chronicle__content p {
+  font-family: var(--f-body);
+  font-size: 1.1rem;
+  color: var(--dust);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .chronicle__line-bg, .chronicle__line-fill { left: 30px; }
+  .chronicle__item { width: 100%; left: 0 !important; padding: 1rem 1rem 1rem 60px; text-align: left !important; }
+  .chronicle__dot { left: 22px !important; }
+}
