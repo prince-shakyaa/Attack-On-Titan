@@ -14,7 +14,7 @@ const TITANS = [
     desc    : 'Survey Corps soldier. The brave ones who dare to face the giants.',
     imgH    : 5.8,   
     imgW    : 5.9,   
-    img     : '/images/Human.png',
+    img     : `${base}images/Human.png`,
   },
   {
     id      : 'pure',
@@ -24,7 +24,7 @@ const TITANS = [
     desc    : 'Mindless and relentless. The most common threat beyond the walls.',
     imgH    : 14,
     imgW    : 10,
-    img     : '/images/PureTitan.png',
+    img     : `${base}images/PureTitan.png`,
   },
   {
     id      : 'armored',

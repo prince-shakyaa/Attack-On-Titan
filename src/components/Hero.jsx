@@ -27,11 +27,11 @@ const Hero = () => {
     video.currentTime = 0
 
     const setup = () => {
-      const duration = video.duration
+      const duration = isNaN(video.duration) || !isFinite(video.duration) ? 10 : video.duration;
       const scrollLen = Math.min(
         Math.max(duration * 150, window.innerHeight * 3),
         window.innerHeight * 8
-      )
+      ) || window.innerHeight * 3; // Fallback just in case
 
       section.style.height = `${scrollLen + window.innerHeight}px`
 
