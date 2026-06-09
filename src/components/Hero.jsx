@@ -113,7 +113,9 @@ const Hero = () => {
           ref={videoRef}
           className="hero__video"
           src={`${import.meta.env.BASE_URL}video/one.mp4`}
+          autoPlay
           muted
+          loop
           playsInline
           preload="auto"
         />
