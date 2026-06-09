@@ -1,4 +1,4 @@
-# ⚔️ Attack on Titan: Immersive Web Experience
+#  Attack on Titan: Immersive Web Experience
 
 ![Project Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -9,11 +9,11 @@ A high-end, cinematic front-end web application paying tribute to the legendary 
 
 It serves as a showcase of advanced front-end development skills, featuring dynamic scroll-based animations, premium UI/UX design, and custom art generation.
 
-### 🌐 [View Live Demo Here](https://attack-on-titan-4s6w.vercel.app/)
+###  [View Live Demo Here](https://attack-on-titan-4s6w.vercel.app/)
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Cinematic Hero Section:** A highly engaging video background with synchronized parallax text reveals.
 - **Scroll-Triggered Animations:** Heavy use of GSAP's `ScrollTrigger` plugin for immersive reveals, sticky sections, and horizontal scrolling arrays.
@@ -22,7 +22,7 @@ It serves as a showcase of advanced front-end development skills, featuring dyna
 - **Custom Visuals:** Incorporates custom-generated, dark anime-style portraits and landscapes to fully capture the mood of the series.
 - **Dynamic Timeline:** A vertical SVG-styled timeline that "bleeds" down the page as the user scrolls, chronicling the history of the walls.
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Framework:** React 18
 - **Build Tool:** Vite
@@ -32,7 +32,7 @@ It serves as a showcase of advanced front-end development skills, featuring dyna
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 If you want to run this project locally and explore the code:
 
@@ -67,7 +67,7 @@ If you want to run this project locally and explore the code:
 
 ---
 
-## 🎨 Design Philosophy
+##  Design Philosophy
 
 The aesthetic of this project is deeply rooted in the tone of the source material: **dark, tragic, yet undeniably beautiful.** 
 Instead of a standard informational webpage, the goal was to build an *experience*. 
@@ -75,10 +75,12 @@ Instead of a standard informational webpage, the goal was to build an *experienc
 - **Typography:** Utilizing serif fonts like `Cinzel` and `IM Fell English` to evoke an ancient, classical, and historical manuscript feel.
 - **Motion:** Every animation is deliberately tuned. Slow pans and scale changes emphasize scale and dread, while rapid fades and horizontal scrolls mimic the fast-paced action of the Survey Corps.
 
-## 🤝 Contributing
+##  Contributing
 
 This project is a personal portfolio piece, but feedback and suggestions are always welcome! Feel free to open an issue or reach out.
 
-## ⚖️ Disclaimer
+##  Disclaimer
 
 *Attack on Titan (Shingeki no Kyojin)* is the property of Hajime Isayama, Kodansha, and MAPPA/Wit Studio. This project is an unofficial, non-profit fan creation built purely for educational and portfolio purposes. No copyright infringement is intended.
+
+
