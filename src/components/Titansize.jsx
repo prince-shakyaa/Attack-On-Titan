@@ -34,7 +34,7 @@ const TITANS = [
     desc    : 'Reiner Braun. Hardened plates make it nearly impenetrable.',
     imgH    : 15.5,
     imgW    : 9,
-    img     : '/images/ArmoredTitan.png',
+    img     : `${base}images/ArmoredTitan.png`,
   },
   {
     id      : 'female',
@@ -44,7 +44,7 @@ const TITANS = [
     desc    : 'Annie Leonhart. Agile, crystalline, and terrifyingly intelligent.',
     imgH    : 23.5,
     imgW    : 12.5,
-    img     : '/images/FemaleTitan.png',
+    img     : `${base}images/FemaleTitan.png`,
   },
   {
     id      : 'beast',
@@ -54,7 +54,7 @@ const TITANS = [
     desc    : 'Zeke Yeager. Ape-like form with devastating projectile attacks.',
     imgH    : 30.5,
     imgW    : 18,
-    img     : '/images/BeastTitan.png',
+    img     : `${base}images/BeastTitan.png`,
   },
   {
     id      : 'colossal',
@@ -64,7 +64,7 @@ const TITANS = [
     desc    : 'Bertholdt Hoover. The one who broke the gate. Steam Incarnate.',
     imgH    : 50,
     imgW    : 28,
-    img     : '/images/col.png',
+    img     : `${base}images/col.png`,
   },
 ]
 
