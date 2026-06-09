@@ -9,7 +9,7 @@ A high-end, cinematic front-end web application paying tribute to the legendary 
 
 It serves as a showcase of advanced front-end development skills, featuring dynamic scroll-based animations, premium UI/UX design, and custom art generation.
 
-### 🌐 [View Live Demo Here](https://prince-shakyaa.github.io/Attack-On-Titan/)
+### 🌐 [View Live Demo Here](https://attack-on-titan-4s6w.vercel.app/)
 
 ---
 
