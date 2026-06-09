@@ -5,6 +5,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger)
 
+const base = import.meta.env.BASE_URL;
+
 const TITANS = [
   {
     id      : 'human',
