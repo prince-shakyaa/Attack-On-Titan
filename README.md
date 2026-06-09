@@ -44,12 +44,12 @@ If you want to run this project locally and explore the code:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/attack-on-titan-experience.git
+   git clone https://github.com/prince-shakyaa/Attack-On-Titan.git
    ```
 
 2. **Navigate to the project directory:**
    ```bash
-   cd attack-on-titan-experience
+   cd Attack-On-Titan
    ```
 
 3. **Install dependencies:**
