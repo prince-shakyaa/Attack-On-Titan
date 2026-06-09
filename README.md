@@ -83,4 +83,7 @@ This project is a personal portfolio piece, but feedback and suggestions are alw
 
 *Attack on Titan (Shingeki no Kyojin)* is the property of Hajime Isayama, Kodansha, and MAPPA/Wit Studio. This project is an unofficial, non-profit fan creation built purely for educational and portfolio purposes. No copyright infringement is intended.
 
+##  Author
+
+Built with 💚 by [Prince Shakya](https://github.com/prince-shakyaa)
 
